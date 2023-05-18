@@ -1,0 +1,30 @@
+﻿<Window x:Class="DicomEditor.Views.DicomStudyTree"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="{Binding ElementName=DicomStudyOverView,Path=SelectedValue.FilePath}" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <TreeView Grid.Column="0" ItemsSource="{Binding DicomStudyNodeItems}" Name="DicomStudyOverView" HorizontalAlignment="Stretch">
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate  ItemsSource="{Binding Path=Children}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center" Name="nodeName" Text="{Binding Description}"></TextBlock>
+                        <TextBlock VerticalAlignment="Center" Foreground="Blue"  Text="{Binding Count}"></TextBlock>
+                        <TextBlock VerticalAlignment="Center" Foreground="Blue"  Text="{Binding SeriesNumber}"></TextBlock>
+                        <TextBlock VerticalAlignment="Center" Foreground="Blue"  Text="{Binding InstanceNumber}"></TextBlock>
+                        <StackPanel.ToolTip>
+                            <TextBlock VerticalAlignment="Center" Text="{Binding InstanceUID}" TextWrapping="Wrap" MaxWidth="200" ></TextBlock>
+                        </StackPanel.ToolTip>
+                    </StackPanel>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
+    </Grid>
+</Window>

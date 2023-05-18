@@ -1,0 +1,369 @@
+[
+  
+  {
+    "Tag": "0002,0000",
+    "Desc": "File Meta information Group Length"
+  },
+  {
+    "Tag": "0002,0001",
+    "Desc": "File Meta Information Version"
+  },
+  {
+    "Tag": "0002,0002",
+    "Desc": "Media Storage SOP Class UID"
+  },
+  {
+    "Tag": "0002,0003",
+    "Desc": "Media Storage SOP Instance UID"
+  },
+  {
+    "Tag": "0002,00010",
+    "Desc": "Transfer Syntax UID"
+  },
+  {
+    "Tag": "0002,0012",
+    "Desc": "Implementation Class UID"
+  },
+  {
+    "Tag": "0002,0013",
+    "Desc": "Implementation Version Name"
+  },
+  {
+    "Tag": "0002,0000",
+    "Desc": "Specific Character Set"
+  },
+  {
+    "Tag": "0002,0000",
+    "Desc": "Image Type"
+  },
+  {
+    "Tag": "0002,0000",
+    "Desc": "SOP Class UID"
+  },
+  {
+    "Tag": "0008,0018",
+    "Desc": "SOP Instance UID"
+  },
+  {
+    "Tag": "0008,0020",
+    "Desc": "Study Date"
+  },
+  {
+    "Tag": "0008,0021",
+    "Desc": "Series Date"
+  },
+  {
+    "Tag": "0008,0022",
+    "Desc": "Acquisition Date"
+  },
+  {
+    "Tag": "0008,0023",
+    "Desc": "Content Date"
+  },
+  {
+    "Tag": "0008,0030",
+    "Desc": "Study Time"
+  },
+  {
+    "Tag": "0008,0031",
+    "Desc": "Series Time"
+  },
+  {
+    "Tag": "0008,0032",
+    "Desc": "Acquisition Time"
+  },
+  {
+    "Tag": "0008,0033",
+    "Desc": "Content Time"
+  },
+  {
+    "Tag": "0008,0050",
+    "Desc": "Accession Number"
+  },
+  {
+    "Tag": "0008,0060",
+    "Desc": "Accession Number"
+  },
+  {
+    "Tag": "0008,0060",
+    "Desc": "Modality"
+  },
+  {
+    "Tag": "0008,0070",
+    "Desc": "Manufacturer"
+  },
+  {
+    "Tag": "0008,0080",
+    "Desc": "Institution Name"
+  },
+  {
+    "Tag": "0008,0090",
+    "Desc": "Referring Physician's Name"
+  },
+  {
+    "Tag": "0008,1030",
+    "Desc": "Study Description"
+  },
+  {
+    "Tag": "0008,1032",
+    "Desc": "Procedure Code Sequence"
+  },
+  {
+    "Tag": "0009,0010",
+    "Desc": "Private Creator"
+  },
+  {
+    "Tag": "0010,0010",
+    "Desc": "Patient's Name"
+  },
+  {
+    "Tag": "0010,0020",
+    "Desc": "Patient ID"
+  },
+  {
+    "Tag": "0010,0030",
+    "Desc": "Patient's Birth Date"
+  },
+  {
+    "Tag": "0010,0040",
+    "Desc": "Patient's Sex"
+  },
+  {
+    "Tag": "0010,1010",
+    "Desc": "Patient's Age"
+  },
+  {
+    "Tag": "0010,2152",
+    "Desc": "Region of Residence"
+  },
+  {
+    "Tag": "0010,21C0",
+    "Desc": "Pregnancy Status"
+  },
+  {
+    "Tag": "0012,0062",
+    "Desc": "Patient Identity Removed"
+  },
+  {
+    "Tag": "0012,0063",
+    "Desc": "De-identification Method"
+  },
+  {
+    "Tag": "0018,0010",
+    "Desc": "Contrast/Bolus Agent"
+  },
+  {
+    "Tag": "0018,0015",
+    "Desc": "Body Part Examined"
+  },
+  {
+    "Tag": "0018,0050",
+    "Desc": "Slice Thickness"
+  },
+  {
+    "Tag": "0018,0060",
+    "Desc": "KVP"
+  },
+  {
+    "Tag": "0018,0090",
+    "Desc": "Data Collection Diameter"
+  },
+  {
+    "Tag": "0018,1000",
+    "Desc": "Device Serial Number"
+  },
+  {
+    "Tag": "0018,1020",
+    "Desc": "Software Versions"
+  },
+  {
+    "Tag": "0018,1030",
+    "Desc": "Protocol Name"
+  },
+  {
+    "Tag": "0018,1130",
+    "Desc": "Table Height"
+  },
+  {
+    "Tag": "0018,1150",
+    "Desc": "Exposure Time"
+  },
+  {
+    "Tag": "0018,1152",
+    "Desc": "Exposure"
+  },
+  {
+    "Tag": "0018,1200",
+    "Desc": "Date of Last Calibration"
+  },
+  {
+    "Tag": "0018,1201",
+    "Desc": "Time of Last Calibration"
+  },
+  {
+    "Tag": "0018,1210",
+    "Desc": "Convolution Kernel"
+  },
+  {
+    "Tag": "0018,5100",
+    "Desc": "Patient Position"
+  },
+  {
+    "Tag": "0020,000D",
+    "Desc": "Study Instance UID"
+  },
+  {
+    "Tag": "0020,000E",
+    "Desc": "Series Instance UID"
+  },
+  {
+    "Tag": "0020,0010",
+    "Desc": "Study ID"
+  },
+  {
+    "Tag": "0020,0011",
+    "Desc": "Series Number"
+  },
+  {
+    "Tag": "0020,0012",
+    "Desc": "Acquisition Number"
+  },
+  {
+    "Tag": "0020,0013",
+    "Desc": "Instance Number"
+  },
+  {
+    "Tag": "0020,1041",
+    "Desc": "Slice Location"
+  },
+  {
+    "Tag": "0028,0002",
+    "Desc": "Samples per Pixel"
+  },
+  {
+    "Tag": "0028,0010",
+    "Desc": "Rows"
+  },
+  {
+    "Tag": "0028,0011",
+    "Desc": "Columns"
+  },
+  {
+    "Tag": "0028,0030",
+    "Desc": "Pixel Spacing"
+  },
+  {
+    "Tag": "0028,1050",
+    "Desc": "Window Center"
+  },
+  {
+    "Tag": "0028,1051",
+    "Desc": "Window Width"
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  },
+  {
+    "Tag": "",
+    "Desc": ""
+  }
+]
+
+
