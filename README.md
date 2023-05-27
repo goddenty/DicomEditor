@@ -14,4 +14,22 @@ The main feature is as following:
 
 Open dcm file screenshot:
 
-[!OpenDcmFile](assets\Home.png)
+You can open dcm file by clicking menu command or drag the file to the window directly.
+
+![OpenDcmFile](assets\Home.png)
+
+Query tags by tag or description:
+
+![Query tags](F:\users\huyanmin\repoes\git_repo\01 Goddenty\DicomEditor\assets\FindFunction.png)
+
+Modify the tag values:
+
+![Modify](F:\users\huyanmin\repoes\git_repo\01 Goddenty\DicomEditor\assets\ModifyFunction.png)
+
+Save changes to file.
+
+![Save](F:\users\huyanmin\repoes\git_repo\01 Goddenty\DicomEditor\assets\SaveMenuFunction.png)
+
+Open folder containing dcm files:
+
+![Open folder](F:\users\huyanmin\repoes\git_repo\01 Goddenty\DicomEditor\assets\TreeFunction.png)
